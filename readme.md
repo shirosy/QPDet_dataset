@@ -3,29 +3,20 @@ Download the dataset from [Google Drive](https://drive.google.com/drive/folders/
 
 Organize as follows:
 ~~~
-{DanceTrack ROOT}
-|-- dancetrack
+{QP ROOT}
+|-- Queuing People
 |   |-- train
-|   |   |-- dancetrack0001
-|   |   |   |-- img1
-|   |   |   |   |-- 00000001.jpg
-|   |   |   |   |-- ...
-|   |   |   |-- gt
-|   |   |   |   |-- gt.txt            
-|   |   |   |-- seqinfo.ini
+|   |   |-- img0001.jpg
 |   |   |-- ...
 |   |-- val
 |   |   |-- ...
 |   |-- test
 |   |   |-- ...
-|   |-- train_seqmap.txt
-|   |-- val_seqmap.txt
-|   |-- test_seqmap.txt
-|-- TrackEval
-|-- tools
-|-- ...
+|   |-- annotations
+|   |   |-- train.json
+|   |   |-- val.json
+|   |   |-- test.json
 ~~~
-We align our dataset annotations with MOT, so each line in  gt.txt contains:
+We align our dataset annotations with COCO
 ~~~
-<frame>, <id>, <bb_left>, <bb_top>, <bb_width>, <bb_height>, 1, 1, 1
-~~~
+
