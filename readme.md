@@ -1,5 +1,5 @@
 ## Dataset
-Download the dataset from [Google Drive](https://drive.google.com/drive/folders/1ASZCFpPEfSOJRktR8qQ_ZoT9nZR0hOea?usp=sharing) or [Baidu Drive](https://pan.baidu.com/s/19O3IvYNzzrcLqlODHKYUwA) (code:awew).
+Download the dataset from [Google Drive]() or [Baidu Drive]() (code:).
 
 Organize as follows:
 ~~~
